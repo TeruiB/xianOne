@@ -1,0 +1,23 @@
+<view class="imageC image_254">
+  <image src="../img/the_new.jpg"></image>
+</view>
+<view class="boxC box_555"></view>
+<view class="textC hL text_554">
+  <input class="input text-content" type="number" name="mobile" placeholder="输入手机号码完成绑定" maxlength="11" bindinput="mobileInput"/>
+</view>
+<icon class="iconC icon_93 iconfont icon-staycurrentportrait "></icon>
+<view class="textC text_1966 tU"><text class="text-content" bindtap="notice">点击查看比赛须知</text></view>
+<icon class="iconC icon_324 iconfont icon-checkbox"></icon>
+<view class="wrapperC wrapper_557">
+	<view class="textC text_1637"><text class="text-content">Copyright © 2017-2018 wanda</text></view>
+	<view class="textC text_1636"><text class="text-content" bindtap="index">活动首页</text></view>
+</view>
+<view class="textC text_556">
+  <button class="text-content bt2" bindtap="registerOnline">线上报名</button>
+</view>
+<view class="textC text_557"><text class="text-content">或者线上报名</text></view>
+<form bindsubmit="formSubmit">
+  <view class="textC text_559">
+    <button class="text-content bt1" form-type="submit">微博报名绑定</button>
+  </view>
+</form>

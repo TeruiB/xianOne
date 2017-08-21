@@ -1,0 +1,52 @@
+<scroll-view class="scrollView" bindscrolltolower="scroll" scroll-y> 
+  <view class="textB image_492">
+    <image src="http://img.xiaopiu.com/userImages/img103215df50e4760.jpg"></image>
+  </view>
+  <view class="aBtn clearfix">
+    <view class="textB textD text_2405" bindtap="registerOnline">
+      <text class="text-content">线上报名</text>
+    </view>
+    <view class="textB textD text_2406" bindtap="registerOffline">
+      <text class="text-content">线下报名</text>
+    </view>
+    <view class="textB textD text_2407" bindtap="weiboBinding">
+      <text class="text-content">微博绑定</text>
+    </view>
+  </view>
+  <view class="wrapper_776 clearfix">
+    <view class="box_2402 textD"></view>
+    <view class="textB textD text_2403">
+      <text class="text-content">精选留言</text>
+    </view>
+    <view class="box_2401 textD"></view>
+  </view>
+  <view class="wMsg clearfix" bindtap="messageShow">
+    <view class="textB text_2410">
+      <text class="text-content">写留言</text>
+    </view>
+    <icon class="icon_390 iconfont icon-edit-copy"></icon>
+  </view>
+  <view class="yanliuban" wx:if="{{ messageShow }}">
+    <form class="liuyan" bindsubmit="formSubmit" >
+      <textarea type="text" name="message" bindinput="messageInput" />
+      <button form-type="submit">发表留言</button>  
+    </form>
+  </view>
+  <view class="conBox">
+    <view class="conMsg" wx:for="{{comment}}">
+      <view class="conMsg-left">
+        <image src="{{item.avatar_url}}"></image>
+      </view>
+      <view class="conMsg-right">
+        <view class="nickname">{{item.nickname}}</view>
+        <view class="comment">{{item.comment}}</view>
+        <view class="created_at">{{item.created_at}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="text_2489">
+    <text class="textB text-content">以上留言由公众号筛选后显示</text>
+  </view>
+  <view class="loading" hidden="{{!searchLoading}}">正在载入更多...</view>
+  <view class="loading complete" hidden="{{!searchLoadingComplete}}">已加载全部</view>
+</scroll-view> 

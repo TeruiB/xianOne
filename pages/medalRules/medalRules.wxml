@@ -1,0 +1,18 @@
+<!--pages/medalRules/medalRules.wxml-->
+<view class="wrapperC wrapper_825">
+	<view class="textC text_2662"><text class="text-content">勋章规则</text></view>
+	<view class="boxC box_2661"></view>
+	<view class="boxC box_2660"></view>
+</view>
+<view class="box">
+  <view class="sBox" wx:for="{{medals}}">
+    <view class="box-left">
+      <image  src="https://wanda.niowoo.com{{item.photo_path}}"></image> 
+      <text class="name">{{item.name}}</text>
+    </view>
+    <view class="box-right">
+      <view class="medalName">{{item.name}}</view>
+      <text class="rule">{{item.rule}}</text>
+    </view>
+  </view>
+</view>

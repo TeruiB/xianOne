@@ -1,0 +1,21 @@
+<view class="map_box">
+  <map id="navi_map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14" markers="{{markers}}" polyline="{{polyline}}" circles="{{circles}}"></map>
+</view>  
+<view class="boxC box_1506 {{class}}" wx:if="{{ messageShow }}">
+  <view class="boxC box_1505">
+    <view class="wrapperC wrapper_520" bindtap="onChangeClass">
+      <icon class="iconC icon_220 iconfont icon-close"></icon> 
+      <!-- <view class="boxC box_1504"></view>      -->
+    </view>
+    <view class="wrapperC wrapper_519">
+      <view class="textC text_1503"><text class="text-content">任务达成</text></view>
+    </view>
+    <view class="imageC image_234">
+       <image src="../../img/xunzhang-05.png"></image> 
+    </view>
+    <view class="textC text_1755 tB"><text class="text-content">勋章名称</text></view>
+    <view class="textC text_1501"><text class="text-content">超过地球95%的人哦！超棒~</text></view>
+    <button open-type="share" class="share">分享</button>
+  </view>
+</view>
+<view class="keep"><text>请时刻保持屏幕常亮状态</text></view>

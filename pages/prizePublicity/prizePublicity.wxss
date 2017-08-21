@@ -1,0 +1,387 @@
+/* pages/prizePublicity/prizePublicity.wxss */
+
+.wrapper_849{
+	width: 750rpx;
+	height: 76rpx;
+	top: -3rpx;
+}
+
+/* 集合.wrapper_849 内部元素--start */
+
+.text_2772{
+	width: 295rpx;
+	height: 76rpx;
+	left: 223rpx;
+	letter-spacing: 0.303rem;
+	color: rgba(102, 102, 102, 1);
+	font-size: 29rpx;
+}
+
+.box_2771{
+	width: 223rpx;
+	height: 3rpx;
+	top: 38rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(153, 153, 153, 1);
+	font-size: 46rpx;
+}
+
+.box_2770{
+	width: 231rpx;
+	height: 3rpx;
+	left: 519rpx;
+	top: 38rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(153, 153, 153, 1);
+	font-size: 46rpx;
+}
+
+/* 集合.wrapper_849 内部元素--end */
+
+.wrapper_851{
+	width: 316rpx;
+	height: 537rpx;
+	left: 41rpx;
+	top: 106rpx;
+}
+
+/* 集合.wrapper_851 内部元素--start */
+
+.text_2760{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_471{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2773{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_475{
+	width: 166rpx;
+	height: 77rpx;
+	left: 150rpx;
+	top: 459rpx;
+}
+
+.image_475 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -5rpx;
+	top: -93rpx;
+}
+
+.text_2774{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_851 内部元素--end */
+
+.wrapper_852{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 106rpx;
+}
+
+/* 集合.wrapper_852 内部元素--start */
+
+.text_2777{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_477{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2776{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_476{
+	width: 62rpx;
+	height: 77rpx;
+	left: 150rpx;
+	top: 459rpx;
+}
+
+.image_476 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -5rpx;
+	top: -93rpx;
+}
+
+.text_2775{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_852 内部元素--end */
+
+.wrapper_853{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 660rpx;
+}
+
+/* 集合.wrapper_853 内部元素--start */
+
+.text_2780{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_479{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2779{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_478{
+	width: 113rpx;
+	height: 77rpx;
+	left: 150rpx;
+	top: 459rpx;
+}
+
+.image_478 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -5rpx;
+	top: -93rpx;
+}
+
+.text_2778{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_853 内部元素--end */
+
+.wrapper_854{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 660rpx;
+}
+
+/* 集合.wrapper_854 内部元素--start */
+
+.text_2783{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_481{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2782{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_480{
+	width: 162rpx;
+	height: 77rpx;
+	left: 151rpx;
+	top: 461rpx;
+}
+
+.image_480 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -63rpx;
+	top: -12rpx;
+}
+
+.text_2781{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_854 内部元素--end */
+
+.wrapper_855{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 1214rpx;
+}
+
+/* 集合.wrapper_855 内部元素--start */
+
+.text_2786{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_483{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2785{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_482{
+	width: 166rpx;
+	height: 77rpx;
+	left: 150rpx;
+	top: 459rpx;
+}
+
+.image_482 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -5rpx;
+	top: -93rpx;
+}
+
+.text_2784{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_855 内部元素--end */
+
+.wrapper_856{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 1214rpx;
+}
+
+/* 集合.wrapper_856 内部元素--start */
+
+.text_2789{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_485{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_2788{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_484{
+	width: 62rpx;
+	height: 77rpx;
+	left: 150rpx;
+	top: 459rpx;
+}
+
+.image_484 image{
+	width: 234rpx;
+	height: 175rpx;
+	left: -5rpx;
+	top: -93rpx;
+}
+
+.text_2787{
+	width: 150rpx;
+	height: 70rpx;
+	top: 462rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_856 内部元素--end */

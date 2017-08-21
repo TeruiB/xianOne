@@ -1,0 +1,92 @@
+/* pages/medalRules/medalRules.wxss */
+
+page {
+  background-color: #202328;
+}
+
+.wrapper_825 {
+  width: 750rpx;
+  height: 76rpx;
+  top: -6rpx;
+}
+
+/* 集合.wrapper_825 内部元素--start */
+
+.text_2662 {
+  width: 295rpx;
+  height: 76rpx;
+  left: 223rpx;
+  letter-spacing: 0.303rem;
+  color: rgba(102, 102, 102, 1);
+  font-size: 29rpx;
+}
+
+.box_2661 {
+  width: 223rpx;
+  height: 3rpx;
+  top: 38rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(153, 153, 153, 1);
+  font-size: 46rpx;
+}
+
+.box_2660 {
+  width: 231rpx;
+  height: 3rpx;
+  left: 519rpx;
+  top: 38rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(153, 153, 153, 1);
+  font-size: 46rpx;
+}
+
+/* 集合.wrapper_825 内部元素--end */
+
+.box {
+  margin-top: 72rpx;
+  height: auto;
+  width: 100%;
+}
+
+.box .sBox {
+  width: 687rpx;
+  height: 258rpx;
+  border-bottom: 2rpx solid rgba(80, 80, 80, 1);
+  margin-bottom: 30rpx;
+  margin-left: 34rpx;
+}
+
+.box .sBox .box-left {
+  float: left;
+  margin-left: 16rpx;
+}
+
+.box .sBox .box-right {
+  float: left;
+  margin-left: 48rpx;
+}
+
+.box .sBox .box-left image {
+  width: 108rpx;
+  height: 198rpx;
+  margin-bottom: 10rpx;
+}
+
+.box .sBox .box-left .name {
+  color: rgba(229, 51, 52, 1);
+  font-size: 26rpx;
+  display: block;
+  text-align: center;
+}
+
+.box .sBox .box-right .medalName {
+  color: rgba(217, 217, 217, 1);
+	font-size: 28rpx;
+}
+
+.box .sBox .box-right .rule {
+  color: rgba(217, 217, 217, 1);
+	font-size: 28rpx;
+  display: block;
+  margin-top: 33rpx;
+}

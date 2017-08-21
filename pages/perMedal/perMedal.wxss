@@ -1,0 +1,188 @@
+/* pages/perMedal/perMedal.wxss */
+
+page {
+  background-color: #202328;
+}
+
+.box_408 {
+  width: 609rpx;
+  height: 822rpx;
+  left: 70rpx;
+  top: 175rpx;
+  color: rgba(80, 80, 80, 1);
+  border-radius: 23rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+  box-shadow: 0 0 0 0.128rem rgba(255, 195, 76, 1);
+}
+
+.text_409 {
+  width: 260rpx;
+  height: 49rpx;
+  left: 120rpx;
+  top: 386rpx;
+  color: rgba(243, 197, 185, 1);
+  font-size: 26rpx;
+  line-height: 150%;
+}
+
+.box_1581 {
+  width: 197rpx;
+  height: 197rpx;
+  left: 281rpx;
+  top: 56rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(102, 102, 102, 1);
+  border-radius: 98rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+  box-shadow: 0 0 0 0.188rem rgba(255, 195, 76, 1);
+}
+
+.text_1579 {
+  width: 75rpx;
+  height: 42rpx;
+  left: 237rpx;
+  top: 276rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(102, 102, 102, 1);
+  font-size: 26rpx;
+  line-height: 150%;
+}
+
+.text_1578 {
+  width: 206rpx;
+  height: 49rpx;
+  left: 309rpx;
+  top: 272rpx;
+  color: rgba(217, 217, 217, 1);
+  font-size: 30rpx;
+  line-height: 150%;
+}
+
+.text_1577 {
+  width: 185rpx;
+  height: 49rpx;
+  left: 410rpx;
+  top: 386rpx;
+  color: rgba(128, 128, 128, 1);
+  font-size: 26rpx;
+  line-height: 150%;
+}
+
+.image_265 {
+  width: 196rpx;
+  height: 190rpx;
+  left: 281rpx;
+  top: 59rpx;
+  border-radius: 96rpx;
+}
+
+.image_265 image {
+  width: 196rpx;
+  height: 260rpx;
+  z-index: 100;
+}
+
+.text_1746 {
+  width: 406rpx;
+  height: 49rpx;
+  left: 171rpx;
+  top: 335rpx;
+  color: rgba(255, 195, 76, 1);
+  font-size: 32rpx;
+  line-height: 150%;
+}
+
+.text_2710 {
+  width: 155rpx;
+  height: 56rpx;
+  left: 525rpx;
+  top: 169rpx;
+  color: rgba(255, 153, 0, 1);
+  font-size: 28rpx;
+  line-height: 150%;
+}
+
+.wrapper_857 {
+  width: 405rpx;
+  height: 171rpx;
+  left: 172rpx;
+  top: 935rpx;
+}
+
+/* 集合.wrapper_857 内部元素--start */
+
+.box_1745 {
+  width: 405rpx;
+  height: 166rpx;
+  top: 5rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(32, 35, 40, 1);
+  border-radius: 38rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+  box-shadow: 0 0 0 0.125rem rgba(255, 195, 76, 1);
+}
+
+.text_411 {
+  width: 320rpx;
+  height: 88rpx;
+  left: 43rpx;
+  color: rgba(255, 195, 76, 1);
+  font-size: 51rpx;
+  line-height: 150%;
+}
+
+.text_410 {
+  width: 395rpx;
+  height: 83rpx;
+  left: 5rpx;
+  top: 85rpx;
+  color: rgba(147, 132, 102, 1);
+  font-size: 27rpx;
+  line-height: 150%;
+}
+
+/* 集合.wrapper_857 内部元素--end */
+
+.text_2819 {
+  width: 603rpx;
+  height: 145rpx;
+  left: 80rpx;
+  top: 1129rpx;
+  color: rgba(147, 132, 102, 1);
+  font-size: 28rpx;
+  line-height: 150%;
+  padding-bottom: 28rpx;
+}
+
+.shownotic {
+  top: 554rpx;
+  left: 298rpx;
+  width: 152rpx;
+  height: 150rpx;
+  color: rgba(255, 255, 255, 1);
+}
+/*勋章样式*/
+.medals {
+  width: 500rpx;
+  height: 488rpx;
+  left: 150rpx;
+  top: 451rpx;
+  display: block;
+}
+.medals .medal {
+  width: 158rpx;
+  height: 248rpx;
+  float: left; 
+}
+.medals .medal image {
+  width: 96rpx;
+  height: 160rpx;
+}
+.medals .medal .name {
+  display: block;
+  color: rgba(128, 128, 128, 1);
+  font-size: 26rpx;
+}

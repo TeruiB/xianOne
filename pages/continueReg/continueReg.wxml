@@ -1,0 +1,44 @@
+<view class="imageC image_497">
+  <image src="/pages/img/the_new.jpg"></image>
+</view>
+<form bindsubmit="formSubmit">
+  <view class="wrapperC wrapper_622">
+    <view class="boxC box_1831"></view>
+    <view class="textC hL text_1830">
+      <input class="input text-content" name="userName" value="{{username}}" placeholder="{{username}}" maxlength="10" bindinput="userNameInput" disabled="true"/>
+    </view>
+    <icon class="iconC icon_295 iconfont icon-account_circle"></icon>
+  </view>
+  <view class="wrapperC wrapper_623">
+    <view class="boxC box_1833"></view>
+    <view class="textC hL text_1832">
+      <input class="input" type="number" name="mobile" value="{{phone}}" placeholder="{{phone}}" maxlength="11" bindinput="mobileInput" disabled="true"/>
+    </view>
+    <icon class="iconC icon_296 iconfont icon-staycurrentportrait"></icon>
+  </view>
+  <view class="textC text_1803 tB">
+    <checkbox-group bindchange="checkboxChange">
+      <view class="service_selection flex">
+        <block wx:for="{{allTimes}}">
+          <view class="item" style="display:inline-block">
+            <label class="checkbox {{item.checked?'is_checked':''}}">  
+              <checkbox value="{{item.value}}" checked="{{item.checked}}" hidden="false" class="{{class}}" disabled="{{item.disabled}}"/>{{item.name}}            
+              <!-- <text class="cir">{{item.name}}</text>    -->
+            </label>
+          </view>
+        </block>
+      </view>
+    </checkbox-group>
+  </view>
+  <view class="textC text_1834">
+    <button class="text-content" form-type="submit">继续报名</button>
+  </view>
+</form>
+<view class="wrapperC wrapper_624">
+  <view class="textC text_1836"><text class="text-content">Copyright © 2017-2018 wanda</text></view>
+  <view class="textC text_1835"><text class="text-content">活动首页</text></view>
+</view>
+
+<view class="textC text_1851 tU"><text class="text-content">选择您要参加的日期，灰色为已报名或过期</text></view>
+<view class="textC text_2491 tU" bindtap="notice"><text class="text-content">点击查看比赛须知</text></view>
+<icon class="iconC icon_397 iconfont icon-checkbox"></icon>

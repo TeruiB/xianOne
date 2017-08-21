@@ -1,0 +1,16 @@
+<!--pages/regSuccess/regSuccess.wxml-->
+<view class="textC text_627"><text class="text-content">恭喜您！报名成功！</text></view>
+<view class="textC text_644"><text class="text-content">您的参赛编码为：</text></view>
+<view class="imageC image_120"><image src="http://img.xiaopiu.com/userImages/img90815acc7e9078.png"></image></view>
+<view class="wrapperC wrapper_558">
+	<view class="textC text_1639"><text class="text-content">Copyright © 2017-2018 wanda</text></view>
+	<view class="textC text_1638"><text class="text-content" bindtap="index">活动首页</text></view>
+</view>
+<view class="textC text_1956" id="succ">
+  <view class="text-content box" wx:for="{{number}}">{{item}}</view>
+</view>
+<view class="textC text_1800"><text class="text-content">请在2017年8月26日-31日
+下午北京时间20.30到场参加比赛</text></view>
+<view class="textC text_1913"><text class="text-content">关注公众号：XIAN GAOXIN</text></view>
+<view class="textC text_1914"><text class="text-content">或者搜索公众号：万达西安ONE</text></view>
+<view class="textC text_2490 tU" bindtap="personage"><text class="text-content">查看我的主页</text></view>

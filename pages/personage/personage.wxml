@@ -1,0 +1,31 @@
+<view class="textC text_1619"><text class="text-content">继续报名</text></view>
+<view class="textC text_1618"><text class="text-content">个人勋章</text></view>
+<view class="textC text_1617"><text class="text-content">点击开始比赛</text></view>
+<view class="textC text_1629"><text class="text-content">Copyright © 2017-2018 wanda</text></view>
+<view class="wrapperC wrapper_551" bindtap="game">
+	<view class="wrapperC wrapper_550">
+		<view class="boxC box_1623"></view>
+		<view class="boxC box_1622"></view>
+		<view class="boxC box_1621"></view>
+		<view class="boxC box_1620"></view>
+	</view>
+	<icon class="iconC icon_252 iconfont icon-directionsbike"></icon>
+</view>
+<view class="boxC box_1716"></view>
+<view class="textC text_1717"><text class="text-content">我的勋章</text></view>
+<view class="textC text_1721">
+  <text class="text-content">集齐：{{medal_amount_user_got}}/{{medal_amount}}</text>
+</view>
+<view class="wrapperC wrapper_594">
+	<view class="textC text_1719"><text class="text-content">选手</text></view>
+	<view class="textC text_1720"><text class="text-content">{{nickName}}</text></view>
+</view>
+<view class="wrapperC wrapper_595">
+	<view class="boxC box_1718"></view>
+	<view class="imageC image_266"><image src="{{avatar_url}}"></image></view>
+</view>
+<view class="textC text_1823 tU" bindtap="notice"><text class="text-content">点击查看比赛须知</text></view>
+<icon class="iconC icon_319 iconfont icon-account_box"></icon>
+<view class="textC text_1955" bindtap="Registration"><text class="text-content">查看我的报名信息</text></view>
+<view class="imageC image_503" bindtap="continueReg"><image src="http://img.xiaopiu.com/userImages/img103515df523ea70.png"></image></view>
+<view class="imageC image_504" bindtap="perMedal"><image src="http://img.xiaopiu.com/userImages/img103415df51918e8.png"></image></view>

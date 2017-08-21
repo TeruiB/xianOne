@@ -1,0 +1,48 @@
+<!--pages/prizePublicity/prizePublicity.wxml-->
+<view class="wrapperC wrapper_849">
+	<view class="textC text_2772"><text class="text-content">奖品公示</text></view>
+	<view class="boxC box_2771"></view>
+	<view class="boxC box_2770"></view>
+</view>
+<view class="wrapperC wrapper_851">
+	<view class="textC hL text_2760"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_471"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2773 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_475"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2774 tB"><text class="text-content">兑换需求：</text></view>
+</view>
+<view class="wrapperC wrapper_852">
+	<view class="textC hL text_2777"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_477"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2776 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_476"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2775 tB"><text class="text-content">兑换需求：</text></view>
+</view>
+<view class="wrapperC wrapper_853">
+	<view class="textC hL text_2780"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_479"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2779 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_478"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2778 tB"><text class="text-content">兑换需求：</text></view>
+</view>
+<view class="wrapperC wrapper_854">
+	<view class="textC hL text_2783"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_481"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2782 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_480"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2781 tB"><text class="text-content">兑换需求：</text></view>
+</view>
+<view class="wrapperC wrapper_855">
+	<view class="textC hL text_2786"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_483"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2785 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_482"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2784 tB"><text class="text-content">兑换需求：</text></view>
+</view>
+<view class="wrapperC wrapper_856">
+	<view class="textC hL text_2789"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
+	<view class="imageC image_485"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
+	<view class="textC hL text_2788 tB"><text class="text-content">商品名称</text></view>
+	<view class="imageC image_484"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
+	<view class="textC hL text_2787 tB"><text class="text-content">兑换需求：</text></view>
+</view>

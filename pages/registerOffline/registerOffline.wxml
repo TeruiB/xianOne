@@ -1,0 +1,43 @@
+<view class="imageC image_494"><image src="/pages/img/the_new.jpg"></image></view>
+<form bindsubmit="formSubmit">
+  <view class="wrapperC wrapper_148">
+    <view class="boxC box_524"></view>
+    <view class="textC hL text_523">
+      <input class="input text-content" name="userName" placeholder="姓名" maxlength="10" bindinput="userNameInput"/>
+    </view>
+    <icon class="iconC icon_87 iconfont icon-account_circle"></icon>
+  </view>
+  <view class="wrapperC wrapper_149">
+    <view class="boxC box_526"></view>
+    <view class="textC hL text_525">
+      <input class="input text-content" type="number" name="mobile" placeholder="手机号码" maxlength="11" bindinput="mobileInput"/>
+    </view>
+    <icon class="iconC icon_88 iconfont icon-staycurrentportrait"></icon>
+  </view>
+  <view class="textC text_530">
+    <button class="text-content" form-type="submit">线下报名</button>
+  </view>
+  <view class="textC hL text_611"><text class="text-content">图片上传</text></view>
+  <view class="wrapperC wrapper_179" bindtap="chooseimage">
+    <image src="{{tempFilePaths}}"  mode="aspecFile" style="width: 100%;height: 100%" class="{{class}}" ></image>
+    <view class="boxC box_605 {{class2}}"></view>
+    <view class="boxC box_604 {{class2}}"></view>
+  </view>
+  <view class="textC text_1803 tB">
+    <checkbox-group bindchange="checkboxChange">
+      <view class="service_selection flex">
+        <block wx:for="{{allTimes}}">
+          <view class="item" style="display:inline-block">
+            <label class="checkbox {{item.checked?'is_checked':''}}" >  
+              <checkbox value="{{item.value}}" checked="{{item.checked}}" hidden="false" />{{item.name}}            
+              <!-- <text class="cir">{{item.name}}</text>    -->
+            </label>
+          </view>
+        </block>
+      </view>
+    </checkbox-group>
+  </view>
+</form>
+<view class="textC text_1852 tU"><text class="text-content">选择您要参加的日期，灰色为已报名或过期</text></view>
+<view class="textC text_1965 tU"><text class="text-content" bindtap="notice">点击查看比赛须知</text></view>
+<icon class="iconC icon_323 iconfont icon-checkbox"></icon>

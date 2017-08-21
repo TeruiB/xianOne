@@ -1,0 +1,273 @@
+.image_497 {
+  width: 750rpx;
+  height: 534rpx;
+  top: -1rpx;
+}
+
+/* .image_497 image{
+	width: 802rpx;
+	height: 683rpx;
+	left: -22rpx;
+	top: -34rpx;
+} */
+
+.wrapper_622 {
+  width: 586rpx;
+  height: 80rpx;
+  left: 82rpx;
+  top: 578rpx;
+  overflow: hidden;
+}
+
+/* 集合.wrapper_622 内部元素--start */
+
+.box_1831 {
+  width: 586rpx;
+  height: 2rpx;
+  top: 74rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(102, 102, 102, 1);
+  font-size: 42rpx;
+}
+
+.text_1830 {
+  width: 519rpx;
+  height: 70rpx;
+  left: 67rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 38rpx;
+}
+
+.icon_295 {
+  width: 56rpx;
+  height: 56rpx;
+  left: 2rpx;
+  top: 5rpx;
+  font-size: 56rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+/* 集合.wrapper_622 内部元素--end */
+
+.wrapper_623 {
+  width: 586rpx;
+  height: 80rpx;
+  left: 82rpx;
+  top: 684rpx;
+  overflow: hidden;
+}
+
+/* 集合.wrapper_623 内部元素--start */
+
+.box_1833 {
+  width: 586rpx;
+  height: 2rpx;
+  top: 74rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(102, 102, 102, 1);
+  font-size: 42rpx;
+}
+
+.text_1832 {
+  width: 519rpx;
+  height: 70rpx;
+  left: 67rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 38rpx;
+}
+
+.icon_296 {
+  width: 56rpx;
+  height: 56rpx;
+  top: 7rpx;
+  font-size: 56rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+/* 集合.wrapper_623 内部元素--end */
+
+.text_1803 {
+  width: 100%;
+  height: 78rpx;
+  top: 798rpx;
+}
+
+.flex {
+  flex-direction: row;
+}
+
+.flex .item {
+  flex: 1;
+}
+
+.checkbox {
+  margin-right: 15rpx;
+}
+
+.service_selection {
+  padding: 15rpx 10rpx;
+  background: #fff;
+  margin-left: 74rpx;
+}
+
+.service_selection label {
+  width: 66rpx;
+  height: 66rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  margin-right: 36rpx;
+  line-height: 200%;
+  display: inline-block;
+}
+
+.service_selection .is_checked {
+  background-color: rgba(153, 153, 153, 1);
+}
+
+.text_1834 {
+  width: 586rpx;
+  height: 80rpx;
+  left: 82rpx;
+  top: 1114rpx;
+  box-shadow: 2rpx solid rgba(102, 102, 102, 1);
+  border-radius: 40rpx;
+  font-size: 38rpx;
+}
+button {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(78, 99, 152, 1);
+}
+
+.wrapper_624 {
+  width: 750rpx;
+  height: 110rpx;
+  top: auto;
+  bottom: -211rpx;
+  position: fixed;
+}
+
+/* 集合.wrapper_624 内部元素--start */
+
+.text_1836 {
+  width: 750rpx;
+  height: 52rpx;
+  top: 59rpx;
+  color: rgba(153, 153, 153, 1);
+  font-size: 23rpx;
+  line-height: 150%;
+}
+
+.text_1835 {
+  width: 206rpx;
+  height: 59rpx;
+  left: 272rpx;
+  color: rgba(88, 108, 148, 1);
+  font-size: 28rpx;
+  line-height: 150%;
+}
+
+/* 集合.wrapper_624 内部元素--end */
+
+.text_1839 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 82rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(153, 153, 153, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1840 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 185rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1841 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 291rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1842 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 394rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1843 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 499rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1844 {
+  width: 66rpx;
+  height: 66rpx;
+  left: 602rpx;
+  top: 970rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  line-height: 150%;
+}
+
+.text_1851 {
+  width: 586rpx;
+  height: 66rpx;
+  left: 70rpx;
+  top: 898rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+  text-decoration: underline;
+}
+
+.text_2491 {
+  width: 286rpx;
+  height: 70rpx;
+  left: 251rpx;
+  top: 1000rpx;
+  color: rgba(255, 0, 0, 1);
+  font-size: 26rpx;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.icon_397 {
+  width: 49rpx;
+  height: 49rpx;
+  left: 216rpx;
+  top: 1014rpx;
+  font-size: 49rpx;
+  color: rgba(153, 153, 153, 1);
+}

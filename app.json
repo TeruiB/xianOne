@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/beforelogin/beforelogin",
+    "pages/registerOnline/registerOnline",
+    "pages/registerOffline/registerOffline",
+    "pages/weiboBinding/weiboBinding",
+    "pages/notice/notice",
+    "pages/personage/personage",
+    "pages/continueReg/continueReg",
+    "pages/regSuccess/regSuccess",
+    "pages/commingSoon/commingSoon",
+    "pages/perMedal/perMedal",
+    "pages/medalRules/medalRules",
+    "pages/prizePublicity/prizePublicity",
+    "pages/Registration/Registration",
+    "pages/navigation/navigation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"white"
+  }
+}

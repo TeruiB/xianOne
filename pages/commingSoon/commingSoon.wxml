@@ -1,0 +1,16 @@
+<!--pages/commingSoon/commingSoon.wxml-->
+<view class="imageC image_395"><image src="http://img.xiaopiu.com/userImages/img61565ffff080.png"></image></view>
+<view class="imageC image_396"><image src="http://img.xiaopiu.com/userImages/img400915de5783a40.png"></image></view>
+<view class="boxC box_2462"></view>
+<view class="wrapperC wrapper_787">
+	<view class="imageC image_398"><image src="http://img.xiaopiu.com/userImages/img14615de9a430b0.png"></image></view>
+	<view class="imageC image_397"><image src="http://img.xiaopiu.com/userImages/img14615de9a430b0.png"></image></view>
+</view>
+<view class="boxC box_2488"></view>
+<view class="textC text_2483"><text class="text-content">抱歉！活动正在筹备！
+敬请期待</text></view>
+<view class="imageC image_406"><image src="http://img.xiaopiu.com/userImages/img90515acc7e9078.png"></image></view>
+<view class="wrapperC wrapper_859">
+	<view class="textC text_2817"><text class="text-content">Copyright © 2017-2018 wanda</text></view>
+	<view class="textC text_2816" bindtap="index"><text class="text-content">活动首页</text></view>
+</view>

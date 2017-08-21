@@ -1,0 +1,128 @@
+/* pages/regSuccess/regSuccess.wxss */
+
+.text_627 {
+  width: 414rpx;
+  height: 92rpx;
+  left: 186rpx;
+  top: 218rpx;
+  color: rgba(229, 51, 52, 1);
+  font-size: 42rpx;
+}
+
+.text_644 {
+  width: 410rpx;
+  height: 80rpx;
+  left: 169rpx;
+  top: 428rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+  line-height: 200%;
+}
+
+.image_120 {
+  width: 188rpx;
+  height: 188rpx;
+  left: 281rpx;
+  top: 38rpx;
+}
+
+.wrapper_558 {
+  width: 750rpx;
+  height: 110rpx;
+  top: 1178rpx;
+  bottom: 0rpx;
+  position: absolute;
+}
+
+/* 集合.wrapper_558 内部元素--start */
+
+.text_1639 {
+  width: 750rpx;
+  height: 52rpx;
+  top: 59rpx;
+  color: rgba(153, 153, 153, 1);
+  font-size: 23rpx;
+  line-height: 150%;
+}
+
+.text_1638 {
+  width: 206rpx;
+  height: 59rpx;
+  left: 272rpx;
+  color: rgba(88, 108, 148, 1);
+  font-size: 28rpx;
+  line-height: 150%;
+}
+
+/* 集合.wrapper_558 内部元素--end */
+
+.text_1799 {
+  width: 410rpx;
+  height: 82rpx;
+  left: 171rpx;
+  top: 570rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(217, 217, 217, 1);
+  font-size: 55rpx;
+  line-height: 150%;
+}
+
+.text_1800 {
+  width: 410rpx;
+  height: 146rpx;
+  left: 169rpx;
+  top: 950rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+  line-height: 200%;
+}
+
+.text_1913 {
+  width: 572rpx;
+  height: 92rpx;
+  left: 97rpx;
+  top: 290rpx;
+  color: rgba(229, 51, 52, 1);
+  font-size: 42rpx;
+}
+
+.text_1914 {
+  width: 572rpx;
+  height: 92rpx;
+  left: 98rpx;
+  top: 358rpx;
+  color: rgba(229, 51, 52, 1);
+  font-size: 28rpx;
+  line-height: 200%;
+}
+
+.text_1956 {
+  width: 410rpx;
+  height: 412rpx;
+  left: 171rpx;
+  top: 498rpx;
+  color: rgba(80, 80, 80, 1);
+  font-size: 43rpx;
+  line-height: 150%;
+}
+#succ {
+  display: block
+}
+
+.box {
+  width: 410rpx;
+  height: 62rpx;
+  margin-bottom: 6rpx;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.text_2490 {
+  width: 410rpx;
+  height: 43rpx;
+  left: 173rpx;
+  top: 900rpx;
+  color: rgba(229, 51, 52, 1);
+  font-size: 28rpx;
+  line-height: 200%;
+  text-decoration: underline;
+}

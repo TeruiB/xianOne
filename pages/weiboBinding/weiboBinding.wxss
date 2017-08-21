@@ -1,0 +1,121 @@
+.image_254 {
+  width: 751rpx;
+  height: 526rpx;
+  top: -28rpx;
+}
+
+.text_554 {
+  width: 519rpx;
+  height: 70rpx;
+  left: 149rpx;
+  top: 526rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 38rpx;
+}
+
+.icon_93 {
+  width: 56rpx;
+  height: 56rpx;
+  left: 82rpx;
+  top: 532rpx;
+  font-size: 56rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.text_1966 {
+  width: 286rpx;
+  height: 70rpx;
+  left: 251rpx;
+  top: 664rpx;
+  color: rgba(255, 0, 0, 1);
+  font-size: 26rpx;
+  line-height: 150%;
+  text-decoration: underline;
+}
+
+.icon_324 {
+  width: 49rpx;
+  height: 49rpx;
+  left: 216rpx;
+  top: 678rpx;
+  font-size: 49rpx;
+  color: rgba(153, 153, 153, 1);
+}
+
+.box_555 {
+  width: 586rpx;
+  height: 2rpx;
+  left: 82rpx;
+  top: 596rpx;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(102, 102, 102, 1);
+  font-size: 42rpx;
+}
+
+.text_556 {
+  width: 586rpx;
+  height: 80rpx;
+  left: 82rpx;
+  top: 938rpx;
+  box-shadow: 2rpx solid rgba(102, 102, 102, 1);
+  border-radius: 40rpx;
+  font-size: 38rpx;
+}
+
+.bt2 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(78, 99, 152, 1);
+}
+
+.text_557 {
+  width: 586rpx;
+  height: 66rpx;
+  left: 82rpx;
+  top: 850rpx;
+  color: rgba(102, 102, 102, 1);
+  font-size: 28rpx;
+}
+
+.text_559 {
+  width: 586rpx;
+  height: 80rpx;
+  left: 82rpx;
+  top: 748rpx;
+  border-radius: 40rpx;
+  font-size: 38rpx;
+}
+
+.bt1 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(229, 51, 52, 1);
+}
+
+.wrapper_557 {
+  width: 750rpx;
+  height: 110rpx;
+  top: auto;
+  bottom: 0rpx;
+  position: fixed;
+}
+
+/* 集合.wrapper_557 内部元素--start */
+
+.text_1637 {
+  width: 750rpx;
+  height: 52rpx;
+  top: 59rpx;
+  color: rgba(153, 153, 153, 1);
+  font-size: 23rpx;
+  line-height: 150%;
+}
+
+.text_1636 {
+  width: 206rpx;
+  height: 59rpx;
+  left: 272rpx;
+  color: rgba(88, 108, 148, 1);
+  font-size: 28rpx;
+  line-height: 150%;
+}
+
+/* 集合.wrapper_557 内部元素--end */

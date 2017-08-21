@@ -1,0 +1,276 @@
+/*---common wxss is in the right tab---*/
+.text_1392{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 10rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 38rpx;
+	line-height: 150%;
+}
+
+.text_1390{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 84rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_1389{
+	width: 680rpx;
+	height: 140rpx;
+	left: 35rpx;
+	top: 88rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_1393{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 266rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_1394{
+	width: 680rpx;
+	height: 171rpx;
+	left: 35rpx;
+	top: 198rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.wrapper_571{
+	width: 750rpx;
+	height: 96rpx;
+	position: fixed;
+}
+
+/* 集合.wrapper_571 内部元素--start */
+
+.box_1658{
+	width: 750rpx;
+	height: 96rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 33rpx;
+	line-height: 150%;
+}
+
+.wrapper_570{
+	width: 127rpx;
+	height: 59rpx;
+	left: 14rpx;
+	top: 19rpx;
+}
+
+/* 集合.wrapper_570 内部元素--start */
+
+.icon_263{
+	width: 58rpx;
+	height: 58rpx;
+	font-size: 58rpx;
+	color: rgba(51, 51, 51, 1);
+}
+
+.text_1659{
+	width: 70rpx;
+	height: 59rpx;
+	left: 56rpx;
+	color: rgba(51, 51, 51, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_570 内部元素--end */
+
+/* 集合.wrapper_571 内部元素--end */
+
+.text_2436{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 418rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2437{
+	width: 680rpx;
+	height: 159rpx;
+	left: 35rpx;
+	top: 322rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2438{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 586rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2439{
+	width: 680rpx;
+	height: 148rpx;
+	left: 35rpx;
+	top: 428rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2440{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 746rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2441{
+	width: 680rpx;
+	height: 187rpx;
+	left: 35rpx;
+	top: 534rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2442{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 940rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2443{
+	width: 680rpx;
+	height: 130rpx;
+	left: 35rpx;
+	top: 710rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2444{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 1130rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2445{
+	width: 680rpx;
+	height: 130rpx;
+	left: 35rpx;
+	top: 884rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2446{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 1372rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2447{
+	width: 680rpx;
+	height: 130rpx;
+	left: 35rpx;
+	top: 1048rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2448{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 1583rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2449{
+	width: 680rpx;
+	height: 130rpx;
+	left: 35rpx;
+	top: 1200rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2450{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 1802rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2451{
+	width: 680rpx;
+	height: 212rpx;
+	left: 35rpx;
+	top: 1356rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2452{
+	width: 680rpx;
+	height: 70rpx;
+	left: 35rpx;
+	top: 2116rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}
+
+.text_2453{
+	width: 680rpx;
+	height: 212rpx;
+	left: 35rpx;
+	top: 1520rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 30rpx;
+	line-height: 150%;
+}

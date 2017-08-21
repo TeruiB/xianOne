@@ -1,0 +1,226 @@
+.image_494{
+	width: 750rpx;
+	height: 546rpx;
+	top: -1rpx;
+}
+
+.wrapper_148{
+	width: 586rpx;
+	height: 80rpx;
+	left: 82rpx;
+	top: 686rpx;
+	overflow: hidden;
+}
+
+/* 集合.wrapper_148 内部元素--start */
+
+.box_524{
+	width: 586rpx;
+	height: 2rpx;
+	top: 74rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(102, 102, 102, 1);
+	font-size: 42rpx;
+}
+
+.text_523{
+	width: 519rpx;
+	height: 70rpx;
+	left: 67rpx;
+	color: rgba(102, 102, 102, 1);
+	font-size: 38rpx;
+}
+
+.icon_87{
+	width: 56rpx;
+	height: 56rpx;
+	left: 2rpx;
+	top: 5rpx;
+	font-size: 56rpx;
+	color: rgba(102, 102, 102, 1);
+}
+
+/* 集合.wrapper_148 内部元素--end */
+
+.wrapper_149{
+	width: 586rpx;
+	height: 80rpx;
+	left: 82rpx;
+	top: 774rpx;
+	overflow: hidden;
+}
+
+/* 集合.wrapper_149 内部元素--start */
+
+.box_526{
+	width: 586rpx;
+	height: 2rpx;
+	top: 74rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(102, 102, 102, 1);
+	font-size: 42rpx;
+}
+
+.text_525{
+	width: 519rpx;
+	height: 70rpx;
+	left: 67rpx;
+	color: rgba(102, 102, 102, 1);
+	font-size: 38rpx;
+}
+
+.icon_88{
+	width: 56rpx;
+	height: 56rpx;
+	top: 7rpx;
+	font-size: 56rpx;
+	color: rgba(102, 102, 102, 1);
+}
+
+/* 集合.wrapper_149 内部元素--end */
+
+.text_530{
+	width: 586rpx;
+	height: 80rpx;
+	left: 82rpx;
+	top: 1120rpx;
+	border-radius: 40rpx;
+	font-size: 38rpx;
+}
+
+button {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(57, 185, 227, 1);
+}
+
+.text_611{
+	width: 152rpx;
+	height: 84rpx;
+	left: 82rpx;
+	top: 568rpx;
+	color: rgba(51, 51, 51, 1);
+	font-size: 33rpx;
+	line-height: 150%;
+}
+
+.wrapper_179{
+	width: 132rpx;
+	height: 132rpx;
+	left: 540rpx;
+	top: 566rpx;
+  border: 1rpx solid #ccc;
+}
+.wrapper_179 .show {
+  display: block;
+}
+.wrapper_179 .hide {
+  display: none;
+}
+
+/* 集合.wrapper_179 内部元素--start */
+
+.box_606{
+	width: 127rpx;
+	height: 128rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: 2rpx solid rgba(204, 204, 204, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.box_605{
+	width: 59rpx;
+	height: 2rpx;
+	left: 33rpx;
+	top: 63rpx;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(204, 204, 204, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.box_604{
+	width: 59rpx;
+	height: 2rpx;
+	left: 61rpx;
+	top: 96rpx;
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(204, 204, 204, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+/* 集合.wrapper_179 内部元素--end */
+
+.text_1803 {
+  width: 100%;
+  height: 78rpx;
+  top: 874rpx;
+}
+
+.flex {
+  flex-direction: row;
+}
+
+.flex .item {
+  flex: 1;
+}
+
+.checkbox {
+  margin-right: 15rpx;
+}
+
+.service_selection {
+  padding: 15rpx 10rpx;
+  background: #fff;
+  margin-left: 74rpx;
+}
+
+.service_selection label{
+  width: 66rpx;
+  height: 66rpx;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 59rpx;
+  font-size: 33rpx;
+  margin-right: 36rpx;
+  line-height: 200%;
+  display: inline-block;
+}
+
+.service_selection .is_checked{  
+  background-color: rgba(153, 153, 153, 1);  
+}
+
+.text_1852{
+	width: 586rpx;
+	height: 66rpx;
+	left: 82rpx;
+	top: 966rpx;
+	color: rgba(102, 102, 102, 1);
+	font-size: 28rpx;
+  text-decoration: underline;
+}
+
+.text_1965{
+	width: 286rpx;
+	height: 70rpx;
+	left: 251rpx;
+	top: 1033rpx;
+	color: rgba(255, 0, 0, 1);
+	font-size: 26rpx;
+	line-height: 150%;
+  text-decoration: underline;
+}
+
+.icon_323{
+	width: 49rpx;
+	height: 49rpx;
+	left: 216rpx;
+	top: 1044rpx;
+	font-size: 49rpx;
+	color: rgba(153, 153, 153, 1);
+}
