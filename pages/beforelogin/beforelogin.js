@@ -5,17 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    name: '',
-    messageShow: false,
-    message: '',
-    comment: [],
+    name: '',           // 貌似没用的
+    messageShow: false,  // 设置留言板一开始为隐藏
+    message: '',    // 留言板输入的内容
+    comment: [],    // 存储留言板的内容
     searchPageNum: 1, // 设置加载的第几次，默认是第一次
     callbackcount: 10, // 返回数据的个数
     searchLoading: false, // "上拉加载"的变量，默认false，隐藏
     searchLoadingComplete: false, // "没有数据"的变量，默认false,隐藏
-    flag: true//是否請求數據
+    flag: true// 是否请求数据的开关
   },
-  onLoad: function (res) {
+  onLoad: function (res) {  // 页面开始加载时请求留言板数据
     var _this = this;
     var session_id = wx.getStorageSync('session_id');
     wx.request({
@@ -48,7 +48,6 @@ Page({
     var _this = this;
     var session_id = wx.getStorageSync('session_id');
     var message = _this.data.message;
-    // console.log(message)
     wx.request({
       url: 'https://wanda.niowoo.com/api/knight/makecomments',
       method: 'POST',

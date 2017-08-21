@@ -1,8 +1,8 @@
 /*---common wxss is in the right tab---*/
 
-page {
+ page {
   background-color: #000;
-}
+} 
 .scrollView{
   width: 750rpx;
   height: 1200rpx;
@@ -247,6 +247,7 @@ page {
 .loading{  
   padding: 10rpx;  
   text-align: center;  
+  color: #fff;
 }  
 .loading:before{  
   display: inline-block;  
@@ -255,7 +256,7 @@ page {
   content: '';  
   width: 40rpx;  
   height: 40rpx;  
-  background: url(../img/icon-loading.png) no-repeat;  
+  background: url(../img/icon_loading.gif) no-repeat;  
   background-size: contain;  
   animation: rotate 1s linear infinite;  
 }  

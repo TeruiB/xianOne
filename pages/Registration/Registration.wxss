@@ -4,7 +4,7 @@
   width: 414rpx;
   height: 92rpx;
   left: 186rpx;
-  top: 251rpx;
+  top: 224rpx;
   color: rgba(229, 51, 52, 1);
   font-size: 42rpx;
 }
@@ -23,7 +23,7 @@
   width: 188rpx;
   height: 188rpx;
   left: 281rpx;
-  top: 60rpx;
+  top: 34rpx;
 }
 
 .wrapper_558 {
@@ -78,20 +78,21 @@
 }
 
 .text_1913 {
-  width: 466rpx;
+  width: 580rpx;
   height: 92rpx;
   left: 14rpx;
-  top: 330rpx;
+  top: 300rpx;
   color: rgba(229, 51, 52, 1);
   font-size: 42rpx;
 }
 
 .text_1914 {
-  width: 270rpx;
+  width: 414rpx;
   height: 92rpx;
-  left: 480rpx;
-  top: 336rpx;
-  color: rgba(102, 102, 102, 1);
+  left: 162rpx;
+  top: 366rpx;
+  color:rgba(229, 51, 52, 1);
+
   font-size: 28rpx;
   line-height: 200%;
 }
