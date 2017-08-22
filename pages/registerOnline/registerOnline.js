@@ -7,7 +7,7 @@ Page({
     phone: '',
     username: '',
     allTimes: [
-      { name: '26', value: '20170826', checked: false },
+      { name: '26', value: '20170822', checked: false },
       { name: '27', value: '20170827', checked: false },
       { name: '28', value: '20170828', checked: false },
       { name: '29', value: '20170829', checked: false },

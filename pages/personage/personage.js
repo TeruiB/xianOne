@@ -9,6 +9,7 @@ Page({
     avatar_url: '',
     medal_amount_user_got: '',
     medal_amount: '',
+    status: 1, 
   },
   onLoad: function () {
     var _this = this;
@@ -54,12 +55,23 @@ Page({
     })
   },
   game: function() {
-    // wx.showModal({
-    //   title: '友情提示',
-    //   content: '比赛尚未开始，请耐心等待！',
-    // })
-    wx.redirectTo({
-      url: '/pages/navigation/navigation',
+    var _this = this;
+    var session_id = wx.getStorageSync('session_id');
+    var status = _this.data.status;
+    wx.request({
+      url: 'https://wanda.niowoo.com/api/knight/race',
+      method: 'POST',
+      data: {
+        session_id: session_id,
+        status: status,
+      },
+      success: (res) => {
+        if(res.data.code == 0) {
+          wx.redirectTo({
+            url: '/pages/navigation/navigation',
+          })
+        }
+      }
     })
   }
 })
