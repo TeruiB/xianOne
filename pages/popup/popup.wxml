@@ -1,0 +1,17 @@
+<!--pages/popup/popup.wxml-->
+<view class="box_1506">
+  <view class="box_1505" wx:for="{{medal}}">
+    <view class="wrapper_520" bindtap="goToPerMedal">      
+      <image src="../img/close.png"></image>
+    </view>
+    <view class="wrapper_519">
+      <view class="text_1503"><text class="text-content">任务达成</text></view>
+    </view>
+    <view class="image_234">
+       <image src="https://wanda.niowoo.com{{item.photo_path}}"></image> 
+    </view>
+    <view class="text_1755 tB"><text class="text-content">{{item.name}}</text></view>
+    <view class="text_1501"><text class="text-content">超过地球95%的人哦！超棒~</text></view>
+    <button open-type="share" class="share">分享</button>
+  </view>
+</view>

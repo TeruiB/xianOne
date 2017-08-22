@@ -14,20 +14,32 @@ Page({
   },
   index: function() {
    wx.redirectTo({
-     url: '../index/index',
+     url: '/pages/index/index',
      complete: function(res) {
        console.log(res);
      }
    })
   },
   registerOnline: function() {
-    wx.navigateTo({
-      url: '../registerOnline/registerOnline',
-    })
+    var that = this;
+    var all_race_codes = wx.getStorageSync('all_race_codes');
+    // console.log(wx.getStorageSync);
+    // console.log(typeof all_race_codes);
+    if (!all_race_codes) {
+      console.log(1);
+      wx.navigateTo({
+        url: '/pages/registerOnline/registerOnline',
+      })
+    } else {
+      console.log(2);
+      wx.redirectTo({
+        url: '/pages/continueReg/continueReg',
+      })
+    }
   },
   notice: function() {
-    wx.navigateTo({
-      url: '../notice/notice',
+    wx.redirectTo({
+      url: '/pages/notice/notice',
     })
   },
   // 表单验证,传数据到后台

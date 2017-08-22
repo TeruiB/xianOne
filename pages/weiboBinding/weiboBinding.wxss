@@ -1,14 +1,14 @@
 .image_254 {
   width: 751rpx;
-  height: 526rpx;
+  height: 369rpx;
   top: -28rpx;
 }
 
 .text_554 {
   width: 519rpx;
   height: 70rpx;
-  left: 149rpx;
-  top: 526rpx;
+  left: 156rpx;
+  top: 406rpx;
   color: rgba(102, 102, 102, 1);
   font-size: 38rpx;
 }
@@ -17,16 +17,16 @@
   width: 56rpx;
   height: 56rpx;
   left: 82rpx;
-  top: 532rpx;
+  top: 408rpx;
   font-size: 56rpx;
-  color: rgba(102, 102, 102, 1);
+  color: #999;
 }
 
 .text_1966 {
   width: 286rpx;
   height: 70rpx;
   left: 251rpx;
-  top: 664rpx;
+  top: 525rpx;
   color: rgba(255, 0, 0, 1);
   font-size: 26rpx;
   line-height: 150%;
@@ -37,7 +37,7 @@
   width: 49rpx;
   height: 49rpx;
   left: 216rpx;
-  top: 678rpx;
+  top: 536rpx;
   font-size: 49rpx;
   color: rgba(153, 153, 153, 1);
 }
@@ -46,7 +46,7 @@
   width: 586rpx;
   height: 2rpx;
   left: 82rpx;
-  top: 596rpx;
+  top: 482rpx;
   color: rgba(80, 80, 80, 1);
   background-color: rgba(102, 102, 102, 1);
   font-size: 42rpx;
@@ -56,7 +56,7 @@
   width: 586rpx;
   height: 80rpx;
   left: 82rpx;
-  top: 938rpx;
+  top: 894rpx;
   box-shadow: 2rpx solid rgba(102, 102, 102, 1);
   border-radius: 40rpx;
   font-size: 38rpx;
@@ -71,7 +71,7 @@
   width: 586rpx;
   height: 66rpx;
   left: 82rpx;
-  top: 850rpx;
+  top: 790rpx;
   color: rgba(102, 102, 102, 1);
   font-size: 28rpx;
 }
@@ -80,7 +80,7 @@
   width: 586rpx;
   height: 80rpx;
   left: 82rpx;
-  top: 748rpx;
+  top: 658rpx;
   border-radius: 40rpx;
   font-size: 38rpx;
 }

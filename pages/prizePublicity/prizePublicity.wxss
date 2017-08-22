@@ -385,3 +385,299 @@
 }
 
 /* 集合.wrapper_856 内部元素--end */
+
+.wrapper_857{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 1748rpx;
+}
+
+.text_3000{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3001{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3002{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_858{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 1748rpx;
+}
+
+.text_3003{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3004{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3005{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_859{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 2270rpx;
+}
+
+.text_3006{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3007{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3008{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_860{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 2270rpx;
+}
+
+.text_3009{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3010{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3011{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_861{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 2798rpx;
+}
+
+.text_3012{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3013{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3014{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_862{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 2798rpx;
+}
+
+.text_3015{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3016{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3017{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_863{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 3330rpx;
+}
+
+.text_3018{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3019{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3020{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_864{
+	width: 316rpx;
+	height: 537rpx;
+	left: 396rpx;
+	top: 3330rpx;
+}
+
+.text_3021{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3022{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3023{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.wrapper_865{
+	width: 316rpx;
+	height: 537rpx;
+	left: 40rpx;
+	top: 3855rpx;
+}
+
+.text_3024{
+	width: 316rpx;
+	height: 94rpx;
+	top: 368rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+
+.image_3025{
+	width: 316rpx;
+	height: 298rpx;
+	background-color: rgba(238, 238, 238, 1);
+}
+
+.text_3026{
+	width: 316rpx;
+	height: 70rpx;
+	top: 298rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+}
+.rule {
+  width: 100%;
+  height: auto;
+  left: 20rpx;
+  top: 4363rpx;
+}
+
+.rules {
+  width: 710rpx;
+  height: 100%;
+  padding-bottom: 50rpx;
+  color: rgba(80, 80, 80, 1);
+  font-size: 32rpx;
+  line-height: 150%;
+  font-weight: 700;
+  text-align: left;
+}

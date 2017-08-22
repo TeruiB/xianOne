@@ -1,48 +1,116 @@
 <!--pages/prizePublicity/prizePublicity.wxml-->
 <view class="wrapperC wrapper_849">
-	<view class="textC text_2772"><text class="text-content">奖品公示</text></view>
-	<view class="boxC box_2771"></view>
-	<view class="boxC box_2770"></view>
+  <view class="textC text_2772"><text class="text-content">奖品公示</text></view>
+  <view class="boxC box_2771"></view>
+  <view class="boxC box_2770"></view>
 </view>
 <view class="wrapperC wrapper_851">
-	<view class="textC hL text_2760"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_471"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2773 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_475"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2774 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2760"><text class="text-content">兑换需求：连续1天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_471">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/3.jpg"></image>
+  </view>
+  <view class="textC hL text_2773 tB"><text class="text-content">冷感毛巾</text></view>
 </view>
 <view class="wrapperC wrapper_852">
-	<view class="textC hL text_2777"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_477"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2776 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_476"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2775 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2777"><text class="text-content">兑换需求：连续1天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_477">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/1.jpg"></image>
+  </view>
+  <view class="textC hL text_2776 tB"><text class="text-content">安德玛手拉包</text></view>
 </view>
 <view class="wrapperC wrapper_853">
-	<view class="textC hL text_2780"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_479"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2779 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_478"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2778 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2780"><text class="text-content">兑换需求：连续1天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_479">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/2.jpg"></image>
+  </view>
+  <view class="textC hL text_2779 tB"><text class="text-content">安德玛手拉包</text></view>
 </view>
 <view class="wrapperC wrapper_854">
-	<view class="textC hL text_2783"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_481"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2782 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_480"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2781 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2783"><text class="text-content">兑换需求：连续3天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_481">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/5.jpg"></image>
+  </view>
+  <view class="textC hL text_2782 tB"><text class="text-content">安德玛运动T恤</text></view>
 </view>
 <view class="wrapperC wrapper_855">
-	<view class="textC hL text_2786"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_483"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2785 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_482"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2784 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2786"><text class="text-content">兑换需求：连续3天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_483">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/6.jpg"></image>
+  </view>
+  <view class="textC hL text_2785 tB"><text class="text-content">安德玛运动T恤</text></view>
 </view>
 <view class="wrapperC wrapper_856">
-	<view class="textC hL text_2789"><text class="text-content">商品描述，最多两行，超出部分用...</text></view>
-	<view class="imageC image_485"><image src="http://img.xiaopiu.com/images/defaultImg-7ee6105b17.png"></image></view>
-	<view class="textC hL text_2788 tB"><text class="text-content">商品名称</text></view>
-	<view class="imageC image_484"><image src="http://img.xiaopiu.com/userImages/img406015de5dfa6d0.png"></image></view>
-	<view class="textC hL text_2787 tB"><text class="text-content">兑换需求：</text></view>
+  <view class="textC hL text_2789"><text class="text-content">兑换需求：连续3天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_485">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/7.jpg"></image>
+  </view>
+  <view class="textC hL text_2788 tB"><text class="text-content">安德玛运动T恤</text></view>
+</view>
+<view class="wrapperC wrapper_857">
+  <view class="textC hL text_3000"><text class="text-content">兑换需求：连续3天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3001">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/8.jpg"></image>
+  </view>
+  <view class="textC hL text_3002 tB"><text class="text-content">安德玛运动T恤</text></view>
+</view>
+<view class="wrapperC wrapper_858">
+  <view class="textC hL text_3003"><text class="text-content">兑换需求：连续5天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3004">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/4.jpg"></image>
+  </view>
+  <view class="textC hL text_3005 tB"><text class="text-content">定制运动背包</text></view>
+</view>
+<view class="wrapperC wrapper_859">
+  <view class="textC hL text_3006"><text class="text-content">兑换需求：连续7天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3007">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/11.jpg"></image>
+  </view>
+  <view class="textC hL text_3008 tB"><text class="text-content">蓝牙音箱</text></view>
+</view>
+<view class="wrapperC wrapper_860">
+  <view class="textC hL text_3009"><text class="text-content">兑换需求：连续7天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3010">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/14.jpg"></image>
+  </view>
+  <view class="textC hL text_3011 tB"><text class="text-content">小米手环</text></view>
+</view>
+<view class="wrapperC wrapper_861">
+  <view class="textC hL text_3012"><text class="text-content">兑换需求：连续7天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3013">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/15.jpg"></image>
+  </view>
+  <view class="textC hL text_3014 tB"><text class="text-content">小米手环</text></view>
+</view>
+<view class="wrapperC wrapper_862">
+  <view class="textC hL text_3015"><text class="text-content">兑换需求：连续9天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3016">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/9.jpg"></image>
+  </view>
+  <view class="textC hL text_3017 tB"><text class="text-content">车载空气净化器</text></view>
+</view>
+<view class="wrapperC wrapper_863">
+  <view class="textC hL text_3018"><text class="text-content">兑换需求：连续9天骑行，可凭借相应勋章兑换</text></view>
+  <view class="imageC image_3019">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/10.jpg"></image>
+  </view>
+  <view class="textC hL text_3020 tB"><text class="text-content">车载空气净化器</text></view>
+</view>
+<view class="wrapperC wrapper_864">
+  <view class="textC hL text_3021"><text class="text-content">兑换需求：连续10天骑行，可凭借终极勋章兑换</text></view>
+  <view class="imageC image_3022">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/12.jpg"></image>
+  </view>
+  <view class="textC hL text_3023 tB"><text class="text-content">小米家用空气净化器</text></view>
+</view>
+<view class="wrapperC wrapper_865">
+  <view class="textC hL text_3024"><text class="text-content">兑换需求：连续10天骑行，可凭借终极勋章兑换</text></view>
+  <view class="imageC image_3025">
+    <image src="https://wanda.niowoo.com/storage/minimatter/gifts/13.jpg"></image>
+  </view>
+  <view class="textC hL text_3026 tB"><text class="text-content">小米家用空气净化器</text></view>
+</view>
+<view class="rule textC">
+  <text class="rules">礼品兑换规则：
+  1、所有礼品不能重复兑换，每人只有一次兑换礼品的机会。
+  2、所有礼品先到先得</text>
 </view>

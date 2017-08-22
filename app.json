@@ -15,7 +15,8 @@
     "pages/medalRules/medalRules",
     "pages/prizePublicity/prizePublicity",
     "pages/Registration/Registration",
-    "pages/navigation/navigation"
+    "pages/navigation/navigation",
+    "pages/popup/popup"
   ],
   "window":{
     "backgroundTextStyle":"light",

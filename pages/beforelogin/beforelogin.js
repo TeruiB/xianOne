@@ -13,7 +13,9 @@ Page({
     callbackcount: 10, // 返回数据的个数
     searchLoading: false, // "上拉加载"的变量，默认false，隐藏
     searchLoadingComplete: false, // "没有数据"的变量，默认false,隐藏
-    flag: true// 是否请求数据的开关
+    markShow:false,
+    flag: true,// 是否请求数据的开关
+    first: true, // 判断是否为第一页
   },
   onLoad: function (res) {  // 页面开始加载时请求留言板数据
     var _this = this;
@@ -26,7 +28,6 @@ Page({
         page: _this.data.searchPageNum,
       },
       success: (res) => {
-        // console.log(res)
         _this.setData({
           comment: res.data.data,
         })
@@ -38,16 +39,30 @@ Page({
     this.setData({
       message: e.detail.value
     })
-  },
+  },  
+  // 控制留言框的显示隐藏
   messageShow: function () {
     this.setData({
-      messageShow: true
+      messageShow: true,
+      markShow:true
     })
   },
+  //点击蒙版和留言框
+  close:function(){
+    this.setData({
+      messageShow: false,
+      markShow: false
+    })
+    
+  },
+  // 发表留言
   formSubmit: function (e) {
     var _this = this;
     var session_id = wx.getStorageSync('session_id');
     var message = _this.data.message;
+    _this.setData({
+      markShow: false,
+    });
     wx.request({
       url: 'https://wanda.niowoo.com/api/knight/makecomments',
       method: 'POST',
@@ -56,11 +71,7 @@ Page({
         comment: message
       },
       success: function (res) {
-        // console.log(res);
-        // var remsg = "评论失败";
-
         if (res.data.code == 0) {
-          // var remsg = "评论成功";          
           _this.setData({
             messageShow: false,
             message: ''
@@ -70,30 +81,74 @@ Page({
             content: '评论成功',
           })
         } else {
-          // _this.setData({
-          //   messageShow: false,
-          //   message: ''
-          // });
           wx.showModal({
             title: '提示',
             content: '请输入留言',
           })
         };
-        // _this.setData({
-        //   messageToast: true,
-        //   retmessage: remsg
-        // });
-        // setTimeout(function(){
-        //   _this.setData({
-        //     messageToast: false,
-        //     messageShow: false
-        //   })
-        // },2000)        
-
       }
     })
   },
   // 监听页面拉到底部 加载更多
+  // scroll: function (e) {
+  //   let that = this;
+  //   var session_id = wx.getStorageSync('session_id');
+  //   console.log(that.data.searchPageNum);
+  //   if (this.data.flag) {
+  //     this.setData({ flag: false });
+  //     if (that.data.first) {
+  //       that.setData({
+  //         first: false,
+  //         searchPageNum: that.data.searchPageNum + 1,  //每次触发上拉事件，把searchPageNum+1  
+  //       });
+  //     }
+  //     var page = that.data.searchPageNum;
+  //     console.log(page);
+  //     wx.request({
+  //       url: 'https://wanda.niowoo.com/api/knight/getcomments',
+  //       method: 'POST',
+  //       data: {
+  //         session_id: session_id,
+  //         page: page,
+  //       },
+  //       success: (res) => {
+  //         !res.data.data.length && that.setData({ flag: true });
+  //         console.log(res);
+  //         setTimeout(function () {
+  //           that.setData({
+  //             comment: that.data.comment.concat(res.data.data),
+  //             searchLoading: false,
+  //             searchPageNum: page + 1,
+  //           })
+  //         }, 2000)
+  //         // if(res.data.data.length !=0 ) {
+  //         //   that.setData({ searchLoading: true });
+  //         //   setTimeout(function () {
+  //         //     that.setData({
+  //         //       comment: that.data.comment.concat(res.data.data),
+  //         //       searchLoading: false,
+  //         //       searchPageNum: that.data.searchPageNum + 1,
+  //         //     })
+  //         //   }, 2000);
+  //         // } else {
+  //         //   that.setData({ searchLoadingComplete: true });
+  //         //   setTimeout(function(){
+  //         //     that.setData({
+  //         //       searchLoadingComplete: false,
+  //         //     });
+  //         //   }, 500)
+  //         // }
+  //       }
+  //     })
+  //   } else {
+  //     that.setData({ searchLoadingComplete: true });
+  //     setTimeout(function () {
+  //       that.setData({
+  //         searchLoadingComplete: false,
+  //       });
+  //     }, 500)
+  //   }
+  // },
   scroll: function (e) {
     console.log(1);
     let that = this;
@@ -116,9 +171,11 @@ Page({
         success: (res) => {
           !res.data.data.length && that.setData({ flag: true })
           console.log(res)
-          that.setData({
-            comment: that.data.comment.concat(res.data.data)
-          })
+          setTimeout(function(){
+            that.setData({
+              comment: that.data.comment.concat(res.data.data)
+            })
+          },1000);
 
         }
       })
@@ -149,13 +206,13 @@ Page({
     var that = this;
     var all_race_codes = wx.getStorageSync('all_race_codes');
     console.log(all_race_codes);
-    if (!all_race_codes) {
-      wx.navigateTo({
-        url: '/pages/registerOnline/registerOnline',
+    if (all_race_codes.length>0) {
+      wx.redirectTo({
+        url: '/pages/continueReg/continueReg',
       })
     } else {
       wx.navigateTo({
-        url: '/pages/continueReg/continueReg',
+        url: '/pages/registerOffline/registerOffline',
       })
     }
   },

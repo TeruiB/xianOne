@@ -80,7 +80,7 @@ page {
 
 .image_265 image {
   width: 196rpx;
-  height: 260rpx;
+  height: 208rpx;
   z-index: 100;
 }
 
@@ -178,8 +178,8 @@ page {
   float: left; 
 }
 .medals .medal image {
-  width: 96rpx;
-  height: 160rpx;
+  width: 158rpx;
+  height: 139rpx;
 }
 .medals .medal .name {
   display: block;

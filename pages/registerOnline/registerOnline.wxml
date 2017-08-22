@@ -25,7 +25,8 @@
         <block wx:for="{{allTimes}}">
           <view class="item" style="display:inline-block">
             <label class="checkbox {{item.checked?'is_checked':''}}" >  
-              <checkbox value="{{item.value}}" checked="{{item.checked}}" hidden="false" />{{item.name}}            
+              <checkbox value="{{item.value}}" checked="{{item.checked}}" hidden="false" />
+              <text>{{item.name}}</text>            
               <!-- <text class="cir">{{item.name}}</text>    -->
             </label>
           </view>

@@ -4,7 +4,7 @@
   display: flex;
 }
 .flex-item{
-  height: 35px; 
+  height: 50rpx; 
   line-height: 35px;
   text-align: center;
   -webkit-box-flex: 1;
@@ -15,16 +15,18 @@
   color:#0091ff;
 }
 .map_box{
-  z-index: 1;
+  z-index: -111;
   position:absolute;
-  top: 0px;
+  top: 50rpx;
   bottom: 0px;
   left: 0px;
-  right: 0px;
+  right: 0px;  
 }
-#navi_map{
+#navi_map{  
+  z-index: 0;
   width: 100%;
   height: 100%;
+  position: absolute;
 }
 .text_box{
   position:absolute;
@@ -74,7 +76,7 @@
 	background-color: rgba(0, 0, 0, 0.3);
 	font-size: 33rpx;
 	line-height: 150%;
-  z-index: 100;
+  z-index: 10000;
 }
 .hide{
  display: none;
@@ -182,6 +184,7 @@
 
 /*提示屏幕常亮*/
 .keep{
+  height: 50rpx;
   position: fixed;
   top: 0;
   left: 0;
@@ -191,12 +194,6 @@
   padding: 10rpx;
   width: 100%;
   font-family:simhei;
-  color: #FF5050;
+  color: #999;
 }
-.share{
-  background-color:#434343;
-  color: #fff;
-  width: 300rpx;
-  margin-top: 50rpx;
-  border: 1rpx solid #fff;
-}
+

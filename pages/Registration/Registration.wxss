@@ -80,7 +80,7 @@
 .text_1913 {
   width: 580rpx;
   height: 92rpx;
-  left: 14rpx;
+  left: 96rpx;
   top: 300rpx;
   color: rgba(229, 51, 52, 1);
   font-size: 42rpx;

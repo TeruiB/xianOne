@@ -1,6 +1,6 @@
 .image_494{
 	width: 750rpx;
-	height: 546rpx;
+	height: 369rpx;
 	top: -1rpx;
 }
 
@@ -8,7 +8,7 @@
 	width: 586rpx;
 	height: 80rpx;
 	left: 82rpx;
-	top: 686rpx;
+	top: 554rpx;
 	overflow: hidden;
 }
 
@@ -26,7 +26,7 @@
 .text_523{
 	width: 519rpx;
 	height: 70rpx;
-	left: 67rpx;
+	left: 82rpx;
 	color: rgba(102, 102, 102, 1);
 	font-size: 38rpx;
 }
@@ -37,7 +37,7 @@
 	left: 2rpx;
 	top: 5rpx;
 	font-size: 56rpx;
-	color: rgba(102, 102, 102, 1);
+	color: #999;
 }
 
 /* 集合.wrapper_148 内部元素--end */
@@ -46,7 +46,7 @@
 	width: 586rpx;
 	height: 80rpx;
 	left: 82rpx;
-	top: 774rpx;
+	top: 664rpx;
 	overflow: hidden;
 }
 
@@ -64,7 +64,7 @@
 .text_525{
 	width: 519rpx;
 	height: 70rpx;
-	left: 67rpx;
+	left: 80rpx;
 	color: rgba(102, 102, 102, 1);
 	font-size: 38rpx;
 }
@@ -74,7 +74,7 @@
 	height: 56rpx;
 	top: 7rpx;
 	font-size: 56rpx;
-	color: rgba(102, 102, 102, 1);
+	color: #999;
 }
 
 /* 集合.wrapper_149 内部元素--end */
@@ -83,7 +83,7 @@
 	width: 586rpx;
 	height: 80rpx;
 	left: 82rpx;
-	top: 1120rpx;
+	top: 1084rpx;
 	border-radius: 40rpx;
 	font-size: 38rpx;
 }
@@ -97,7 +97,7 @@ button {
 	width: 152rpx;
 	height: 84rpx;
 	left: 82rpx;
-	top: 568rpx;
+	top: 412rpx;
 	color: rgba(51, 51, 51, 1);
 	font-size: 33rpx;
 	line-height: 150%;
@@ -107,7 +107,7 @@ button {
 	width: 132rpx;
 	height: 132rpx;
 	left: 540rpx;
-	top: 566rpx;
+	top: 406rpx;
   border: 1rpx solid #ccc;
 }
 .wrapper_179 .show {
@@ -158,7 +158,7 @@ button {
 .text_1803 {
   width: 100%;
   height: 78rpx;
-  top: 874rpx;
+  top: 786rpx;
 }
 
 .flex {
@@ -199,7 +199,7 @@ button {
 	width: 586rpx;
 	height: 66rpx;
 	left: 82rpx;
-	top: 966rpx;
+	top: 899rpx;
 	color: rgba(102, 102, 102, 1);
 	font-size: 28rpx;
   text-decoration: underline;
@@ -209,7 +209,7 @@ button {
 	width: 286rpx;
 	height: 70rpx;
 	left: 251rpx;
-	top: 1033rpx;
+	top: 984rpx;
 	color: rgba(255, 0, 0, 1);
 	font-size: 26rpx;
 	line-height: 150%;
@@ -220,7 +220,7 @@ button {
 	width: 49rpx;
 	height: 49rpx;
 	left: 216rpx;
-	top: 1044rpx;
+	top: 996rpx;
 	font-size: 49rpx;
 	color: rgba(153, 153, 153, 1);
 }

@@ -11,15 +11,15 @@
 <view class="boxC box_2408"></view>
 <view class="wrapperC wrapper_783" bindtap="beforelogin">
 	<view class="boxC box_2449"></view>
-	<view class="imageC image_326"><image src="http://img.xiaopiu.com/userImages/img102915df503c7e0.png"></image></view>
+	<view class="imageC image_326"><image src="https://wanda.niowoo.com/storage/minimatter/programview/yeqi.png"></image></view>
 </view>
 <view class="wrapperC wrapper_784" bindtap="perMedal">
 	<view class="boxC box_2450"></view>
-	<view class="imageC image_392"><image src="http://img.xiaopiu.com/userImages/img102815df503a8a0.png"></image></view>
+	<view class="imageC image_392"><image src="https://wanda.niowoo.com/storage/minimatter/programview/mymedals.png"></image></view>
 </view>
 <view class="wrapperC wrapper_785" bindtap="commingSoon">
 	<view class="boxC box_2451"></view>
-	<view class="imageC image_393"><image src="http://img.xiaopiu.com/userImages/img102715df50323d0.png"></image></view>
+	<view class="imageC image_393"><image src="https://wanda.niowoo.com/storage/minimatter/programview/xianone.png"></image></view>
 </view>
 <view class="textC text_2452"><text class="text-content">荧光夜骑</text></view>
 <view class="textC text_2453"><text class="text-content">我的勋章</text></view>

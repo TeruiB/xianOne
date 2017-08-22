@@ -8,15 +8,15 @@
 <view class="imageC image_265"><image src="{{avatar_url}}"></image></view>
 <view class="textC text_1746 tB"><text class="text-content">手机号：{{phone}}</text></view>
 <view class="textC text_2710" bindtap="medalRules"><text class="text-content">勋章规则》</text></view>
- <view class="medals textC">
+ <view class="medals textC" wx:if="{{Medalss}}">
   <view class="medal" wx:for="{{medals}}">
     <image src="https://wanda.niowoo.com{{item.photo_path}}"></image>
     <text class="name">{{item.name}}</text>
   </view>
 </view> 
-<!-- <view class="shownotic textC">
+<view class="shownotic textC" wx:if="{{showMedals}}">
   <text class="text_content">暂无勋章</text>
-</view> -->
+</view> 
 <view class="wrapperC wrapper_857" bindtap="prizePublicity">
 	<view class="boxC box_1745"></view>
 	<view class="textC text_411 tB"><text class="text-content">奖品兑换公示</text></view>

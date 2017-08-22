@@ -50,11 +50,11 @@ page {
 
 .box .sBox {
   width: 687rpx;
-  height: 258rpx;
+  height: 230rpx;
   border-bottom: 2rpx solid rgba(80, 80, 80, 1);
-  margin-bottom: 30rpx;
+  margin-bottom: 38rpx;
   margin-left: 34rpx;
-  padding-bottom: 20rpx;
+  padding-bottom: 0rpx;
 }
 
 .box .sBox .box-left {
@@ -64,12 +64,12 @@ page {
 
 .box .sBox .box-right {
   float: left;
-  margin-left: 48rpx;
+  margin-left: 40rpx;
 }
 
 .box .sBox .box-left image {
-  width: 108rpx;
-  height: 198rpx;
+  width: 158rpx;
+  height: 139rpx;
   margin-bottom: 10rpx;
 }
 
@@ -90,6 +90,6 @@ page {
 	font-size: 28rpx;
   display: block;
   margin-top: 33rpx;
-  width: 500rpx;
+  width: 456rpx;
   line-height: 170%;
 }

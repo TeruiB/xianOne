@@ -11,6 +11,8 @@ Page({
     medal_amount_user_got: '',  // 勋章获得数量
     phone: '',  // 手机号
     medals:[],  // 存储勋章图片和名称信息
+    showMedals: true, // 判断有无勋章
+    Medalss: false, // 判断勋章的显示
   }, 
   onLoad: function(res) {
     var _this = this; // 改变指向
@@ -31,6 +33,18 @@ Page({
           phone: res.data.data.phone,
           medals: res.data.data.medals
         })
+        if (res.data.data.medals.length == 0){
+          _this.setData({
+            showMedals: true,
+            Medalss: false,
+          })
+        }else{
+          console.log(33);
+          _this.setData({
+            showMedals: false,
+            Medalss: true,
+          })
+        }
       }
     })
   },

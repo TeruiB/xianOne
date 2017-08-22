@@ -209,7 +209,7 @@ page {
 
 .image_266 image{
 	width: 196rpx;
-	height: 260rpx;
+	height: 200rpx;
 }
 
 /* 集合.wrapper_595 内部元素--end */

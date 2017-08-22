@@ -35,22 +35,22 @@ Page({
     })
   },
   continueReg: function () {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/continueReg/continueReg',
     })
   },
   perMedal: function () {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/perMedal/perMedal',
     })
   },
   notice: function () {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/notice/notice',
     })
   },
   Registration: function() {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/Registration/Registration',
     })
   },
@@ -66,9 +66,22 @@ Page({
         status: status,
       },
       success: (res) => {
+        // console.log(res);
         if(res.data.code == 0) {
           wx.redirectTo({
             url: '/pages/navigation/navigation',
+          })
+        } else if(res.data.code == 10) {
+          wx.showModal({
+            title: '友情提示',
+            content: '已经参加过比赛！',
+            showCancel: false,
+          })
+        }else{
+          wx.showModal({
+            title: '友情提示',
+            content: '比赛尚未开始!',
+            showCancel: false,
           })
         }
       }

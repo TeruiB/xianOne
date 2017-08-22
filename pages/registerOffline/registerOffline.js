@@ -30,7 +30,7 @@ Page({
   },
   notice: function() {
     wx.navigateTo({
-      url: '../notice/notice',
+      url: '/pages/notice/notice',
     })
   },
   /**  
