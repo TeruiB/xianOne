@@ -668,7 +668,7 @@
   width: 100%;
   height: auto;
   left: 20rpx;
-  top: 4363rpx;
+  top: 2246rpx;
 }
 
 .rules {
@@ -681,3 +681,6 @@
   font-weight: 700;
   text-align: left;
 }
+ .one, .two, .three{
+  display: block;
+} 
